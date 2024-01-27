@@ -371,7 +371,7 @@ body {
   .map-search-and-report{
     display:flex;
     flex-direction:row;
-    align-content: space-between;
+    justify-content: center;
     padding:30px;
   }
 
@@ -395,9 +395,8 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
     transition: background-color 0.3s, box-shadow 0.3s;
     position: absolute;
-    top: 10px; 
-    left: 10px;
-    z-index: 1000; /* Adjust the z-index value */
+    margin-top:160px;
+    
 }
 
 .map-button:hover {
